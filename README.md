@@ -1,23 +1,11 @@
 # cpe315-matmul
-## Your name(s) here
+## Shosei Anegawa, James Rounthwaite
 
 ### To build:
 ```shell
 make clean; make
+To change from matmul to matmul-mul change the make file subisution
 ```
-### To run:
-```shell
-perf stat ./mm > p.out
-```
-### To test:
-```shell
-diff p.out outputs/N.out
-```
-Note that N above is one of:
-* 16
-* 64
-* 256
-* 1024
 
 ### To modify the size:
 1. edit the matmul.h file
@@ -27,3 +15,10 @@ Note that N above is one of:
 ```
 3. Save the file
 4. Rebuild
+
+### State of the Lab
+The lab says if we don't have a working a mul we will recieve, but we never recived one. 
+So our mul subroutine works with all numbers except negative numbers so we made the 
+matrixes all positive. 
+
+Other than that, matmul.s and matmul-mul.s work as expected. 
