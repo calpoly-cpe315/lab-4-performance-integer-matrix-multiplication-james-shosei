@@ -80,8 +80,7 @@ Matrix AllocateMatrix(int height, int width, int init)
 
   for(unsigned int i = 0; i < M.height * M.width; i++)
   {
-    M.elements[i] = (init == 0) ? (0) : 
-	    ((100*(rand()-(RAND_MAX/2))/(RAND_MAX/100)));
+    M.elements[i] = (init == 0) ? (0) : abs(((100*(rand()-(RAND_MAX/2))/(RAND_MAX/100))));
   }
   return M;
 }	
