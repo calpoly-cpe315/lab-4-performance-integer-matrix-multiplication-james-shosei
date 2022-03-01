@@ -21,4 +21,4 @@ The lab says if we don't have a working a mul we will recieve, but we never reci
 So our mul subroutine works with all numbers except negative numbers so we made the 
 matrixes all positive. 
 
-Other than that, matmul.s and matmul-mul.s work as expected. 
+Other than that, matmul.s and matmul-mul.s work as expected. So all the new content for this lab work as intended
